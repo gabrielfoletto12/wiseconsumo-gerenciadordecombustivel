@@ -48,6 +48,16 @@ public class Abastecimento {
     }
 
 
+    //Metodos
+
+    public void mostrarInfo(){
+        System.out.println("Quilometragem atual: "+getQuilometragemAtual());
+        System.out.println("Valor gasto: R$"+getValorGasto());
+        System.out.println("Quantidade de litros abastecidos: "+getLitrosAbastecidos()+" l");
+        System.out.println("Data do abastecimento: "+getData());
+    }
+
+
 }
 
 
